@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    background: #000;
+    line-height: 22px;
+    color: #000;
+    font-size: 12px;
+}
+br{
+  display: block;
+   margin: 10px 0;
+}
+a{
+  text-decoration: none;
+
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.semi_bold{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.resume{
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    margin: 50px auto;
+}
+
+h1{
+  font-size: 1.8rem;
+}
+.resume_top{
+  position: absolute;
+  width: 520px;
+  height: 150px;
+  background-repeat: round;
+  color: #fff;
+  padding-left: 280px;
+  padding-top: 30px;
+}
+.resume_left{
+    width: 280px;
+    background-color: #c4c4c4;
+
+}
+.resume_prof img{
+   width: 200px;
+   height: 200px;
+   margin: 40px 40px 20px;
+   position: relative;
+   border-radius: 100%;
+}
+.resume_right{
+  width: 475px;
+  background-color: #fff;
+  padding: 200px 30px 100px;
+}
+.top-content{
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.resume_content{
+  padding: 0 30px 5px;
+}
+
+.title-content p{
+  padding-top: 3px;
+  font-weight: bold;
+}
+
+.title-content img{
+  width: 30px;
+  height: 25px;
+  float: left;
+  margin-right: 10px;
+}
+.col2{
+  display: flex;
+}
+
+.year{
+  width: 30%;
+}
+
+.col-content{
+  width: 70%;
+  position: relative;
+}
+
+.col2 p{
+  line-height: 0.5;
+
+}
+
+.year img{
+  width: 13px;
+  height: 13px;
+  padding-top: 9px;
+}
